@@ -34,8 +34,10 @@ export const errorHandler = (code, complement) => {
 		case 601:
 			throwError("channelId is required")
 			break
+
+		// Default
 		default:
-			throwError("Unknown Error")
+			throwError(complement)
 			break
 	}
 }

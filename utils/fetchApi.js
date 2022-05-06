@@ -13,7 +13,7 @@ const fetchApi = async (endpoint, options) => {
 			body: body,
 		})
 	).json()
-	res.code !== undefined && errorHandler(res.code)
+	res.code !== undefined && errorHandler(res.code, res.msg)
 	return res
 }
 
