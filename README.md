@@ -1,12 +1,8 @@
 # Motivación
 
----
-
 Acelerar el desarrollo utilizando el potencial de Discord para almacenar archivos.
 
 ## Configuración
-
----
 
 ### ES Modules (ESM)
 
