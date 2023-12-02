@@ -10,12 +10,7 @@ class DiscordClient {
 	}
 
 	async send(filename, filebuffer) {
-		if (!this.fileLimit)
-			this.fileLimit = await getFileLimit(this.token, this.channelId)
-
-		filebuffer.byteLength > this.fileLimit &&
-			errorHandler(40005, this.fileLimit)
-
+		
 		const form = createForm(filename, filebuffer)
 		const options = {
 			token: this.token,
