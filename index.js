@@ -1,6 +1,6 @@
 import createForm from "./utils/createForm.js"
 import fetchApi from "./utils/fetchApi.js"
-import getFileLimit from "./utils/getFileLimit.js"
+//import getFileLimit from "./utils/getFileLimit.js"
 import errorHandler from "./utils/errorHandler.js"
 
 class DiscordClient {
