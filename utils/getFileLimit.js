@@ -1,4 +1,4 @@
-import fetchApi from "./fetchApi.js"
+/*import fetchApi from "./fetchApi.js"
 
 const getGuildId = async (token, channelId) => {
 	const options = {
@@ -37,4 +37,4 @@ const getFileLimit = async (token, channelId) => {
 	}
 }
 
-export default getFileLimit
+export default getFileLimit*/
