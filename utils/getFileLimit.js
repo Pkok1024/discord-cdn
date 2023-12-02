@@ -27,7 +27,7 @@ const getFileLimit = async (token, channelId) => {
 	switch (boostLevel) {
 		case 0:
 		case 1:
-			return 8388608
+			return 52428800
 
 		case 2:
 			return 52428800
